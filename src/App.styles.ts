@@ -42,7 +42,7 @@ export const Search = styled.div`
 
   input {
     font-size: 20px;
-    width: 75%;
+    width: 74%;
     height: 100%;
     border-radius: 15px 0px 0px 15px;
   }
