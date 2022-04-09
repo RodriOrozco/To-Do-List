@@ -52,6 +52,14 @@ export const Search = styled.div`
     width: 25%;
     height: 120%;
     cursor: pointer;
+    background-color: transparent;
+    border-color: aqua;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  button:hover {
+    background-color: #3dc8e0;
+    color: white;
   }
 `;
 
