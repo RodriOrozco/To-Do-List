@@ -33,8 +33,8 @@ export const Card = styled.div`
     width: 80%;
   }
 
-  @media (max-width: 300px) {
-    width: 96%;
+  @media (max-width: 250px) {
+    width: 95%;
   }
 `;
 
