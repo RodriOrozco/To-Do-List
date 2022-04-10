@@ -28,8 +28,13 @@ export const Card = styled.div`
   padding: 10px;
   margin-top: 5%;
   margin-bottom: 5%;
+
   @media (max-width: 1130px) {
     width: 80%;
+  }
+
+  @media (max-width: 300px) {
+    width: 90%;
   }
 `;
 
