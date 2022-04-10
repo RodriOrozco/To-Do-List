@@ -28,6 +28,9 @@ export const Card = styled.div`
   padding: 10px;
   margin-top: 5%;
   margin-bottom: 5%;
+  @media (max-width: 1130px) {
+    width: 80%;
+  }
 `;
 
 export const Search = styled.div`
@@ -60,18 +63,6 @@ export const Search = styled.div`
   button:hover {
     background-color: #3dc8e0;
     color: white;
-  }
-
-  @media (max-width: 1130px) {
-    flex-direction: column;
-    button {
-      width: 100%;
-      border-radius: 0px 0px 0px 0px;
-    }
-    input {
-      width: 100%;
-      border-radius: 0px 0px 0px 0px;
-    }
   }
 `;
 
